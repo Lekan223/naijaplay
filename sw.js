@@ -1,5 +1,5 @@
 // NaijaPlay service worker: caches the app shell only. Music and API calls always go to the network.
-const CACHE = 'naijaplay-v1';
+const CACHE = 'naijaplay-v2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
